@@ -16,7 +16,7 @@ be defined in a closure provided at registration time.
 
 # Example
 
-```Objective-C
+```Swift
 init { 
   self.addKVO(someObject, keyPath: "someKVOCompliantProperty") { someResponse() } 
 }
